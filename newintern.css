@@ -1,0 +1,290 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+form {
+  margin: 200px;
+  position: relative;
+  left: 110px;
+  top: -152px;
+  font-size: 20px;
+}
+body {
+  background-color: #d3d6d9;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.switch {
+  width: 50px;
+  height: 17px;
+  position: relative;
+  display: inline-block;
+}
+
+.switch input {
+  display: none;
+}
+
+.switch .slider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  cursor: pointer;
+  background-color: #e7ecf1;
+  border-radius: 30px !important;
+  border: 0;
+  padding: 0;
+  display: block;
+  margin: 12px 10px;
+  min-height: 11px;
+}
+
+.switch .slider:before {
+  position: absolute;
+  background-color: #aaa;
+  height: 15px;
+  width: 15px;
+  content: "";
+  left: 0px;
+  bottom: -2px;
+  border-radius: 50%;
+  transition: ease-in-out 0.5s;
+}
+
+.switch .slider:after {
+  content: "";
+  color: white;
+  display: block;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 70%;
+  transition: all 0.5s;
+  font-size: 10px;
+  font-family: Verdana, sans-serif;
+}
+
+.switch input:checked + .slider:after {
+  transition: all 0.5s;
+  left: 30%;
+  content: "";
+}
+
+.switch input:checked + .slider {
+  background-color: #d3d6d9;
+}
+
+.switch input:checked + .slider:before {
+  transform: translateX(15px);
+  background-color: #26a2ac;
+}
+.divc1 {
+  font-size: 20px;
+  background-color: white;
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  font-weight: 400;
+  width: 549px;
+  word-break: break-word;
+  border: 1px solid white;
+  border-radius: 8px;
+  border-bottom: 12px;
+  padding: 24px;
+  page-break-inside: avoid;
+}
+.div {
+  display: block;
+  font-size: 20px;
+}
+#div1 {
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -19px;
+}
+#div2 {
+  width: auto;
+  height: 10px;
+  background-color: blueviolet;
+}
+#div3 {
+  height: 30px;
+  -webkit-box-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 4px;
+}
+#email {
+  position: relative;
+  left: -379px;
+  top: 13px;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: groove;
+  width: 172px;
+}
+#p2 {
+  position: relative;
+  top: -11px;
+}
+#email:focus {
+  outline: none;
+}
+#div4 {
+  position: relative;
+  top: 29px;
+}
+img {
+  border: none;
+  padding-top: 25px;
+  width: 500px;
+  padding-left: 22px;
+}
+#p1 {
+  position: relative;
+  top: 5px;
+  right: -26px;
+}
+#div5 {
+  position: relative;
+  top: 56px;
+}
+#name {
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: groove;
+}
+#name:focus {
+  outline: none;
+}
+#div6 {
+  position: relative;
+  top: 83px;
+}
+#pn {
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: groove;
+}
+#pn:focus {
+  outline: none;
+}
+#div7 {
+  position: relative;
+  top: 102px;
+}
+#tsl {
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: groove;
+}
+#tsl:focus {
+  outline: none;
+}
+#div8 {
+  position: relative;
+  top: 120px;
+}
+#div9 {
+  position: relative;
+  top: 130px;
+}
+#div10 {
+  position: relative;
+  top: 140px;
+}
+#div11 {
+  position: relative;
+  top: 140px;
+}
+input {
+  font-size: 15px;
+}
+#p3 {
+  position: relative;
+  top: -18px;
+  right: -54px;
+}
+#btn {
+  background-color: blue;
+  font-size: 15px;
+  width: 86px;
+  height: 32px;
+  border-radius: 8px;
+  color: white;
+}
+#btn:hover {
+  background-color: darkslateblue;
+}
+#ahr {
+  position: relative;
+  top: -38px;
+  left: 500px;
+  font-size: 16px;
+  text-decoration: none;
+}
+#p4 {
+  font-size: 12px;
+  position: relative;
+  top: -20px;
+  color: darkslateblue;
+}
+#div12 {
+  position: relative;
+  top: 135px;
+  left: 317px;
+  font-size: 12px;
+}
+#img1 {
+  width: 28px;
+  position: relative;
+  left: -83px;
+}
+#p5 {
+  color: cornflowerblue;
+  position: relative;
+  top: -33px;
+  left: -29px;
+}
+.ahre2 {
+  position: relative;
+  top: -34px;
+  left: -29px;
+  color: cornflowerblue;
+}
+#div13 {
+  position: relative;
+  bottom: -118px;
+  right: -79px;
+  font-size: 12px;
+  color: cornflowerblue;
+}
+.last {
+  position: relative;
+  top: -16px;
+  left: 269px;
+  color: cornflowerblue;
+}
+#div14 {
+  position: relative;
+  bottom: -126px;
+  left: 274px;
+}
+#googleforms {
+  color: cornflowerblue;
+  text-decoration: none;
+  font-size: 30px;
+}
